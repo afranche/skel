@@ -20,9 +20,10 @@ built on top of this abstraction layer.
 Why ?
 _____
 
-The goal of Skel is to abstract away asynchronous logic behind common flows and build a web framework on top of this
-abstraction. I found async web frameworks to be nice to work with in general but I wanted to experiment a more featured
-and easy-going framework to make things composable, simple and with a gentle learning curve.
+The goal of Skel is to provide a high-end API to common tasks that benefits from asynchronous processing such as
+Networking or File processing and to build a web framework on top of this API. I found async web frameworks to be
+nice to work with in general but I wanted to experiment a more featured and easy-going framework to make things
+composable, simple and with a gentle learning curve.
 
 Current Status
 ______________
