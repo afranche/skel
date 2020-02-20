@@ -1,0 +1,10 @@
+[all]
+bears = LineCountBear
+files = skel/**.py, tests/**.py, docs/**.rst, README.rst
+max_lines_per_file = 120
+[all.python]
+bears = RadonBear, PycodestyleBear, BanditBear, MypyBear, PyImportSortBear, PyLintBear
+files = skel/**.py, tests/**.py
+[all.restructuredtext]
+bears = reSTLintBear, RSTcheckBear
+files = docs/**.rst README.rst
